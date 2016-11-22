@@ -4,9 +4,9 @@
 #choose the list of the files you want to clone:
   echo "insert the file"
 
-  read list.txt
+  read list
 
-for i in $( cat repofile );do
+for i in $( cat list.txt );do
         echo  "--------------------------------------------------------------------"
         echo $i
         echo  "--------------------------------------------------------------------"
