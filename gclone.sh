@@ -4,7 +4,7 @@
 #choose the list of the files you want to clone:
   echo "insert the file"
 
-  read list
+  read /repoclone/list
 
 for i in $( cat list.txt );do
         echo  "--------------------------------------------------------------------"
