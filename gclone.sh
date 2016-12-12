@@ -2,7 +2,7 @@
         
 
 #choose the list of the files you want to clone:
-  echo "insert the file"
+  echo "Reading clone list"
 
   read /repoclone/list.txt
 
